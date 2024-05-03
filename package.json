@@ -1,0 +1,16 @@
+{
+  "name": "atividade_g1_api",
+  "version": "1.0.0",
+  "description": "Atividade Tópicos Especiais em Ads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Guilherme Magalhaes Lopes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  }
+}
