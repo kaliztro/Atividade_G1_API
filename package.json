@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node src/index.js",
     "build": "echo 'No build step'",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "vercel-build": "echo 'Build for Vercel'"
   },
   "author": "Guilherme Magalhaes Lopes",
   "license": "ISC",
