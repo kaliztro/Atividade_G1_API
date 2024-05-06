@@ -2,9 +2,10 @@
   "name": "atividade_g1_api",
   "version": "1.0.0",
   "description": "Atividade Tópicos Especiais em Ads",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js",
+    "build": "echo 'No build step'",
     "start": "node src/index.js"
   },
   "author": "Guilherme Magalhaes Lopes",
