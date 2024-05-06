@@ -5,15 +5,6 @@
   "main": "src/index.js",
   "author": "Guilherme Magalhaes Lopes",
   "license": "ISC",
-  "scripts": {
-    "start": "node src/index.js"
-  },
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.3.3"
