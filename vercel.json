@@ -11,8 +11,5 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
-  ],
-  "scripts": {
-    "vercel-build": "npm run build && npm run start"
-  }
+  ]
 }
