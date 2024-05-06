@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "Atividade Tópicos Especiais em Ads",
   "main": "src/index.js",
-  "scripts": {
-    "dev": "node src/index.js",
-    "build": "echo 'No build step'",
-    "start": "node src/index.js",
-    "vercel-build": "npm run build && npm run start"
-  },
   "author": "Guilherme Magalhaes Lopes",
   "license": "ISC",
   "dependencies": {
