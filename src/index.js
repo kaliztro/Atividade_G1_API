@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-const port = 4000
+const port = 3000
 
 const mongoose = require('mongoose');
 
