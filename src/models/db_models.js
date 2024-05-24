@@ -8,3 +8,13 @@ const Filmes = mongoose.model('Filmes', {
 });
 
 module.exports = Filmes;
+
+
+const Caderno = mongoose.model('Caderno', { 
+    nome: String,
+    valor: Number,
+    contato: String,
+    data: String
+});
+
+module.exports = Caderno;

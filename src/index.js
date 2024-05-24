@@ -28,7 +28,6 @@ app.use((req, res, next) => {
     }
 
     // Acesso negado...
-    res.set('WWW-Authenticate', 'Basic realm="401"') // change this
     res.status(401).send('Autenticação necessária.')
 });
 
